@@ -14,6 +14,12 @@ An end-to-end machine learning-based student analytics system that predicts plac
 
 ---
 
+## Dataset
+
+The project uses a structured dataset containing student academic and skill-related attributes such as CGPA, internships, projects, and aptitude scores to predict placement outcomes.
+
+---
+
 ## How It Works
 
 1. User inputs student details (CGPA, aptitude, internships, etc.)
