@@ -10,7 +10,7 @@ An end-to-end machine learning-based student analytics system that predicts plac
 - 📈 Provides confidence levels (High / Medium / Low)  
 - 💡 Generates personalized improvement suggestions  
 - 📉 Analyzes key factors like CGPA, internships, projects, and skills  
-- 🌐 Interactive UI built using Streamlit  
+- 🌐 Interactive web application built using Streamlit
 
 ---
 
@@ -58,9 +58,3 @@ This project goes beyond prediction by providing a recommendation system that su
 - Improve model accuracy with advanced algorithms  
 - Add user authentication and data storage  
 - Deploy with scalable backend  
-
----
-
-## Live Demo
-
-Coming soon...
