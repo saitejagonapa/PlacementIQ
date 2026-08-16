@@ -107,9 +107,9 @@ def generate_suggestions(student, prediction):
 
 @st.cache_resource
 def load_model():
-    joblib.load("model/logistic_regression_model.pkl")
-    joblib.load("model/preprocessor.pkl")
-    joblib.load("model/scaler.pkl")
+    model = joblib.load("model/logistic_regression_model.pkl")
+    preprocessor = joblib.load("model/preprocessor.pkl")
+    scaler = joblib.load("model/scaler.pkl")
     return model, preprocessor, scaler
 
 model, preprocessor, scaler = load_model()
